@@ -1,6 +1,5 @@
 # Kevin's NeoVim Configuration (2024)
 
-
 ## Description 📝
 This repo contains my setup for NeoVim created in 2023. I followed typecraft's tutorial series on YouTube.
 Pull this down on any machine to get started using Neovim with my default settings. This repository and README
@@ -32,6 +31,8 @@ TBD
     - mason: installs the lsp for a language
     - mason lsp config: bridges the gap between mason and nvim-lspconfig
     - nvim-lspconfig: configurations for lsps
+- None-LS: ---
+- Completions: ---
 - Lualine: fancy status line (insert mode, file name, line data, etc)
 - Color Scheme Options: 
     - Tokyo Night

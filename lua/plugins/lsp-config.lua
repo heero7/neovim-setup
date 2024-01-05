@@ -21,17 +21,20 @@ return {
         "neovim/nvim-lspconfig",
         config = function()
             local lspconfig = require("lspconfig")
+            local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
             -- Lua LSP
             lspconfig.lua_ls.setup({
-
+                capabilities = capabilities
             })
 
             -- C LSP
             lspconfig.clangd.setup({
+                capabilities = capabilities
             })
 
             lspconfig.tsserver.setup({
+                capabilities = capabilities
             })
 
             -- Keymaps (todo: right now they're global, might want to change)
